@@ -1,0 +1,7 @@
+Запускаем виртуальное окружение
+source ../venv/bin/activate
+
+superuser:
+	Dax
+	admin@local.ru
+	qwertyuiop

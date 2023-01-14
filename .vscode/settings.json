@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "/home/dax/prog/Python/DjangoBasics/venv/bin/python3",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Django_BraniacLMC_sqlite",
+            "group": "Django_BraniacLMC",
+            "database": "${workspaceFolder:Python__Django_BraniacLMC}/db.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

@@ -1,0 +1,16 @@
+Запускаем виртуальное окружение
+source ../venv/bin/activate
+
+superuser:
+	Dax
+	admin@local.ru
+	qwertyuiop
+	
+# Запуск Celery
+celery -A config worker -l INFO
+
+# Проверка установленной локали
+locale -a | grep ru
+
+Test:
+	admin / admin
